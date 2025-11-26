@@ -13,7 +13,6 @@ void remove_int(int arr[], int size, int target)
         }
     }
 
-    // Le reste n’est pas obligatoire, mais propre
     for (int k = j; k < size; k++)
         arr[k] = 0;
 }
